@@ -1,0 +1,12 @@
+{
+  "name": "js-catwalk",
+  "version": "1.0.0",
+  "description": "Activity for comparing and contrasting JavaScript coding styles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js",
+    "start": "npm run test"
+  },
+  "author": "",
+  "license": "ISC"
+}
