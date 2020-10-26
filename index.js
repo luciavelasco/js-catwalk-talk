@@ -1,4 +1,4 @@
 
 module.exports = {
-    exampleFunction: function() { return new Error("No code written! Check README.md for instructions.") }
+    exampleFunction: function(sentence) { return new Error("No code written! Check README.md for instructions.") },
 }
