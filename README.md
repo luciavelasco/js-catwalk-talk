@@ -46,3 +46,6 @@ These exercises are very short, but they are designed to include flow operators 
 What syntax you use for these operations will depend on which version of JavaScript you're used to, or perhaps what frameworks and languages you have learned in the past or use frequently - or even whether you are used to procedural, functional, or object oriented programming!
 
 What informed __your__ solution? Is there a better way to solve this problem?
+
+
+#### Once you've completed this activity, or if you just want to recap some of the takeaways from my talk, check out the `examples` branch. That will talk through a few solutions, some of the Pros and Cons of each one, and what might lead someone to build their solution a certain way.
