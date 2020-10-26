@@ -1,14 +1,11 @@
 const functionsToTest = require("./index.js")
 
 const runTest = (getWordLengths, functionName) => {
-
     let count;
 
     console.log(`${functionName} returns short, medium and long words for a single sentence.`)
     count = getWordLengths("What a great day for an enormous picnic in my garden")
-
     if (typeof count !== 'object') throw new Error("Invalid return value. Must be object.")
-
     "short" in count &&
     "medium" in count &&
     "long" in count &&
@@ -55,6 +52,7 @@ const runTest = (getWordLengths, functionName) => {
      */
 }
 
+// run tests on each function exported from index
 const keys = Object.keys(functionsToTest)
 keys.forEach(functionName => {
     console.log('TESTING:', functionName, '\n')
