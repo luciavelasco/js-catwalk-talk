@@ -10,6 +10,8 @@ Go through the exercises with your peers. Compare your solutions at the end of e
 
 Our function, which I have called `getWordLengths`, takes a string and returns an object. It returns the number of short words (three letters or less), medium words (four or five letters) and long words (six letters or more).
 
+Edit or replace the `exampleFunction` in `index.js`, then run `npm run test` (you don't need to run `npm i`) to test you solution.
+
 ```typescript
 
 let count = getWordLengths("What a great day for an enormous picnic in my garden!")
