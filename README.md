@@ -1,6 +1,6 @@
 # JavaScript Catwalk
 
-Add code to `index.js` until the exported function satisfies the instructions below, and passes all the tests (run `npm run test` to test!).
+Add code to `index.js` until your exported functions satisfies the instructions below, and passes all the tests (run `npm run test` to test!).
 
 Go through the exercises with your peers. Compare your solutions at the end of each exercise, and talk about why you wrote your solution the way you did. Then, refactor your solution for the next exercise and repeat the conversation!
 
