@@ -10,7 +10,7 @@ const runTest = (getWordLengths, functionName) => {
     "long" in count &&
     count.short === 6 && count.medium === 2 && count.long === 3 ?
         console.log("\x1b[1m\x1b[5m\x1b[1m\x1b[5m\x1b[32m%s\x1b[0m", "    PASS") :
-        console.warn("\x1b[31m%s\x1b[0m", "    FAIL")
+        console.warn("\x1b[31m%s\x1b[0m", "    FAIL: ", count)
     /*
       {
       short: 6,
@@ -26,7 +26,7 @@ const runTest = (getWordLengths, functionName) => {
     "long" in count &&
     count.medium === 1 && count.long === 2 ?
         console.log("\x1b[1m\x1b[5m\x1b[32m%s\x1b[0m", "    PASS") :
-        console.warn("\x1b[31m%s\x1b[0m", "    FAIL")
+        console.warn("\x1b[31m%s\x1b[0m", "    FAIL: ", count)
     /*
       {
       medium: 1,
@@ -41,7 +41,7 @@ const runTest = (getWordLengths, functionName) => {
     "long" in count === false &&
     count.medium === 2 ?
         console.log("\x1b[1m\x1b[5m\x1b[32m%s\x1b[0m", "    PASS") :
-        console.warn("\x1b[31m%s\x1b[0m", "    FAIL")
+        console.warn("\x1b[31m%s\x1b[0m", "    FAIL: ", count)
     /*
       {
       medium: 2
