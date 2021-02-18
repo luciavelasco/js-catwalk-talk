@@ -119,14 +119,14 @@ const luciaFunction = sentence =>
     sentence.split(' ')
         .map(word => getCategory(word.length))
         .reduce(
-            // In production I would use `accumulator` instead of `prev`, and
-            // `lengthCategory` instead of `cat`, but I didn't want it to be confusingly long
             (prev, cat) => ({
                 ...prev,
                 [cat]: cat in prev ? prev[cat] + 1 : 1
             }), // meow
             {}
         );
+//P.S.: In production I would use `accumulator` instead of `prev`, and
+// `lengthCategory` instead of `cat`, but I didn't want it to be confusingly long
 
 
 // Mike
