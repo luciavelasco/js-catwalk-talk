@@ -17,6 +17,16 @@
       0
     ) // 10
   
+    Lucia's tips:
+    Start all your reduces by writing out:
+      .reduce(
+        () => {},
+        startingValue
+        )
+    Remember, the output will be the same type as the starting value.
+    Want to smush your array into a number? You probably want to start with 0.
+    Want to turn your array into an object? You'll need to start with {} (and maybe some initial values { short: 0 } ).
+  
 */
 
 /*
