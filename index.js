@@ -19,6 +19,10 @@
   
 */
 
+/*
+  Resources: Functional Programming book https://github.com/MostlyAdequate/mostly-adequate-guide
+*/
+
 // Neal
 class StringProcessor {
   wordLengths(str) {
