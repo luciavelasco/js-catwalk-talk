@@ -42,11 +42,12 @@ const robbieFunction = sentence => {
   ).length;
 
   const fullResults = { short, medium, long };
-  const keyValuePairs = Object.entities(fullResults);
+  const keyValuePairs = Object.entries(fullResults);
   // [ [`short`, 0], [`medium`, 1], [`long`, 5] ]
-  const relevantResults = Object.fromEntities(
+  const relevantResults = Object.fromEntries(
     keyValuePairs.filter(([k, v]) => { return v > 0; })
   );
+  return relevantResults
 }
 // Lucia's Solution
 // luciaFunction() goes here...
